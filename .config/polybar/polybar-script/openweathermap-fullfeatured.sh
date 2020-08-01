@@ -52,8 +52,8 @@ get_duration() {
 
 }
 
-KEY="bbc541ebbc6bcea909d699d37df4e535"
-CITY="Pontianak,ID"
+KEY=""
+CITY=""
 UNITS="metric"
 SYMBOL="°"
 
