@@ -1,0 +1,81 @@
+! special
+*.foreground:	#F8F8F2
+*.background:	#282A36
+*.cursorColor:  #c3cddb
+
+! black
+*.color0:		#000000
+*.color8:		#4D4D4D
+
+! red
+*.color1:		#FF5555
+*.color9:		#FF6E67
+
+! green
+*.color2:		#50FA7B
+*.color10:		#5AF78E
+
+! yellow
+*.color3:		#F1FA8C
+*.color11:		#F4F99D
+
+! blue
+*.color4:		#BD93F9
+*.color12:		#CAA9FA
+
+! magenta
+*.color5:		#FF79C6
+*.color13:		#FF92D0
+
+! cyan
+*.color6:		#8BE9FD
+*.color14:		#9AEDFE
+
+! white
+*.color7:		#BFBFBF
+*.color15:		#E6E6E6
+
+!! URxvt Appearance
+URxvt.font: xft:Hack Nerd Font:style=Regular:size=11,xft:Hack Nerd Font Mono:style=Regular:size=11
+URxvt.boldFont: xft:Hack Nerd Font:style=Bold:size=11
+URxvt.italicFont: xft:Hack Nerd Font:style=Italic:size=11
+URxvt.boldItalicfont: xft:Hack Nerd Font:style=Bold Italic:size=11
+urxvt*termName: rxvt
+urxvt*scrollBar: false
+urxvt*matcher.button: 1
+urxvt.transparent: false
+URxvt.letterSpace: true
+Xft*dpi: 96
+Xft*antialias: true
+Xft*hinting: true
+Xft*hintstyle: hintfull
+URxvt*cursorUnderline: true
+Xft*rgba: rgb
+URxvt*geometry: 85x20
+*internalBorder: 26
+URxvt*fading: 0
+URxvt*tintColor: #ffffff
+URxvt*shading: 0
+URxvt*inheritPixmap: False
+
+!! Common Keybinds for Navigations
+URxvt.keysym.Shift-Up: command:\033]720;1\007
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.keysym.Control-Up: \033[1;5A
+URxvt.keysym.Control-Down: \033[1;5B
+URxvt.keysym.Control-Right: \033[1;5C
+URxvt.keysym.Control-Left: \033[1;5D
+
+!! Copy Paste & Other Extensions
+URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.urlLauncher: firefox
+URxvt.underlineURLs: true
+URxvt.urlButton: 1
