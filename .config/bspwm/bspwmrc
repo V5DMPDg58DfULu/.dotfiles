@@ -6,7 +6,7 @@ $HOME/.config/polybar/launch.sh &
 feh --bg-fill ~/Pictures/wallpaper/737474.png
 pcloudcc -u limbardi@protonmail.com -d &
 /opt/xdman/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m &
-xautolock -time 10 -locker "betterlockscreen -l dimblur -t 'locked bruh'" &
+xautolock -time 30 -locker "betterlockscreen -l dimblur -t 'locked bruh'" -corners 0++0 &
 
 picom -f -i 0.9 &
 
