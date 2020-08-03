@@ -40,7 +40,7 @@ width = 99.76%
 height = 30
 offset-x = 0.07%
 ;offset-y = 1%
-radius = 10.0
+radius = 7.0
 fixed-center = false
 
 background = ${colors.background}

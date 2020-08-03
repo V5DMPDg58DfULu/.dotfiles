@@ -6,18 +6,19 @@ $HOME/.config/polybar/launch.sh &
 feh --bg-fill ~/Pictures/wallpaper/737474.png
 pcloudcc -u limbardi@protonmail.com -d &
 /opt/xdman/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m &
-xautolock -time 30 -locker "betterlockscreen -l dimblur -t 'locked bruh'" -corners 0++0 &
+xautolock -time 30 -locker "betterlockscreen -l dimblur -t 'locked bruh'" -corners 0000 &
+# xset s off -dpms &
 
-picom -f -i 0.9 &
+picom --config $HOME/.config/picom/picom.conf &
 
 bspc monitor -d term www work media game
 
 bspc config border_width        3
 bspc config window_gap          7
 
-bspc config normal_border_color "#44475a"
-bspc config active_border_color "#bd93f9"
-bspc config focused_border_color "#ff79c6"
+bspc config normal_border_color "#282a36"
+bspc config active_border_color "#282a36"
+bspc config focused_border_color "#8BE9FD"
 bspc config presel_feedback_color "#6272a4"
 
 bspc config split_ratio				0.50

@@ -51,3 +51,6 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 
 let g:Hexokinase_highlighters = ['backgroundfull']
+
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
