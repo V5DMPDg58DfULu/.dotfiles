@@ -12,7 +12,7 @@ super + Return
 
 # program launcher
 super + d
-	rofi -combi-modi drun combi -show combi -modi combi -theme dracula -icon-theme "Paper-Mono-Dark" -show-icons -terminal urxvt
+	rofi -combi-modi drun combi -show combi -modi combi -theme nord -icon-theme "Paper-Mono-Dark" -show-icons -terminal urxvt
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -134,7 +134,7 @@ super + shift + w
 	
 #launch ranger
 super + shift + e
-	kitty -e ranger
+	urxvt -e ranger
 	
 #launch sublime text
 super + shift + g

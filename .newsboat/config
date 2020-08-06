@@ -23,10 +23,7 @@ bind-key D pb-download
 bind-key U show-urls
 bind-key x pb-delete
 
-browser linkhandler
-macro , open-in-browser
-macro i set browser "brave" ; open-in-browser ; set browser linkhandler
-macro m set browser "setsid -f mpv" ; open-in-browser ; set browser linkhandler
+browser "brave %u"
 
 # formatting and colorization ------------------------------------------
 

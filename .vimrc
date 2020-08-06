@@ -27,7 +27,7 @@ let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
 let g:lightline = {
-      \ 'colorscheme': 'dracula',
+      \ 'colorscheme': 'nord',
       \ }
 
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -46,9 +46,11 @@ Plug 'vuciv/vim-bujo'
 Plug 'tpope/vim-dispatch'
 Plug 'itchyny/lightline.vim'
 Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
+
+colorscheme nord
 
 let g:Hexokinase_highlighters = ['backgroundfull']
 

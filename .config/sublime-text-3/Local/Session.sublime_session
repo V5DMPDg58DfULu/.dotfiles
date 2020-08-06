@@ -55,13 +55,18 @@
 					}
 				},
 				{
-					"contents": "#! /bin/sh\n\n# Autorun\nsxhkd &\n$HOME/.config/polybar/launch.sh &\nfeh --bg-fill ~/Pictures/wallpaper/737474.png\npcloudcc -u limbardi@protonmail.com -d &\n/opt/xdman/jre/bin/java -Xmx1024m -jar /opt/xdman/xdman.jar -m &\nxautolock -time 30 -locker \"betterlockscreen -l dimblur -t 'locked bruh'\" -corners 0000 &\n\npicom -f -i 0.9 &\n\nbspc monitor -d term www work media game\n\nbspc config border_width        3\nbspc config window_gap          7\n\nbspc config normal_border_color \"#44475a\"\nbspc config active_border_color \"#bd93f9\"\nbspc config focused_border_color \"#ff79c6\"\nbspc config presel_feedback_color \"#6272a4\"\n\nbspc config split_ratio\t\t\t\t0.50\nbspc config borderless_monocle\t\ttrue\nbspc config gapless_monocle\t\t\ttrue\nbspc config top_padding\t\t\t\t-8\nbspc config bottom_padding\t\t\t0\n\nbspc rule -a feh state=tiled follow=on\nbspc rule -a \"/opt/xdman/xdman\" state=floating\nbspc rule -a Lxappearance state=floating follow=on\nbspc rule -a Bitwarden state=floating follow=on\nbspc rule -a \"steam-runtime %U\" desktop='^5'\nbspc rule -a discord desktop='^5'\nbspc rule -a spotify desktop='^4'\n\n# Touchpad Setting\nxinput set-prop \"Elan Touchpad\" \"libinput Tapping Enabled\" 1\nxinput set-prop \"Elan Touchpad\" \"libinput Natural Scrolling Enabled\" 1\n",
-					"file": "/home/kuple/.config/bspwm/bspwmrc",
-					"file_size": 1246,
-					"file_write_time": 132408422509170184,
+					"file": "/home/kuple/.config/spicetify/config.ini",
 					"settings":
 					{
-						"buffer_size": 1225,
+						"buffer_size": 836,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/kuple/.config/spicetify/Themes/Dribbblish/color.ini",
+					"settings":
+					{
+						"buffer_size": 7978,
 						"line_ending": "Unix"
 					}
 				},
@@ -78,7 +83,7 @@
 					"file": "/home/kuple/.config/polybar/config",
 					"settings":
 					{
-						"buffer_size": 9826,
+						"buffer_size": 9825,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -87,7 +92,7 @@
 					"file": "/home/kuple/.newsboat/urls",
 					"settings":
 					{
-						"buffer_size": 1248,
+						"buffer_size": 1852,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -96,7 +101,7 @@
 					"file": "/home/kuple/.newsboat/config",
 					"settings":
 					{
-						"buffer_size": 2654,
+						"buffer_size": 2477,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -254,6 +259,7 @@
 			},
 			"file_history":
 			[
+				"/home/kuple/.config/bspwm/bspwmrc",
 				"/home/kuple/Downloads/subscription_manager",
 				"/home/kuple/.gitignore",
 				"/home/kuple/Extensions",
@@ -287,7 +293,6 @@
 				"/home/kuple/.cache/.fr-wkrprV/Readme.txt",
 				"/usr/share/doc/polybar/config",
 				"/home/kuple/.config/dconf/user",
-				"/home/kuple/.config/bspwm/bspwmrc",
 				"/home/kuple/.config/polybar/launch.sh",
 				"/home/kuple/dracula/INSTALL.md",
 				"/home/kuple/st"
@@ -346,7 +351,7 @@
 			"groups":
 			[
 				{
-					"selected": 4,
+					"selected": 5,
 					"sheets":
 					[
 						{
@@ -375,7 +380,7 @@
 								"translation.y": 2084.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 8,
+							"stack_index": 9,
 							"type": "text"
 						},
 						{
@@ -403,7 +408,7 @@
 								"translation.y": 855.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 7,
+							"stack_index": 8,
 							"type": "text"
 						},
 						{
@@ -432,7 +437,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 6,
+							"stack_index": 7,
 							"type": "text"
 						},
 						{
@@ -460,39 +465,67 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 5,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
 							"buffer": 4,
-							"file": "/home/kuple/.config/bspwm/bspwmrc",
+							"file": "/home/kuple/.config/spicetify/config.ini",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1225,
+								"buffer_size": 836,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										478,
-										478
+										535,
+										535
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/kuple/.config/spicetify/Themes/Dribbblish/color.ini",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7978,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1291.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
 							"type": "text"
 						},
 						{
-							"buffer": 5,
+							"buffer": 6,
 							"file": "/home/kuple/.config/alacritty/alacritty.yml",
 							"semi_transient": false,
 							"settings":
@@ -518,24 +551,24 @@
 								"translation.y": 978.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 10,
+							"stack_index": 11,
 							"type": "text"
 						},
 						{
-							"buffer": 6,
+							"buffer": 7,
 							"file": "/home/kuple/.config/polybar/config",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 9826,
+								"buffer_size": 9825,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										5449,
-										5449
+										0,
+										0
 									]
 								],
 								"settings":
@@ -546,24 +579,24 @@
 								"translation.y": 678.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 4,
+							"stack_index": 6,
 							"type": "text"
 						},
 						{
-							"buffer": 7,
+							"buffer": 8,
 							"file": "/home/kuple/.newsboat/urls",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1248,
+								"buffer_size": 1852,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1248,
-										1248
+										0,
+										0
 									]
 								],
 								"settings":
@@ -574,24 +607,24 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
-							"buffer": 8,
+							"buffer": 9,
 							"file": "/home/kuple/.newsboat/config",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 2654,
+								"buffer_size": 2477,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										899,
-										899
+										0,
+										0
 									]
 								],
 								"settings":
@@ -602,11 +635,11 @@
 								"translation.y": 420.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 4,
 							"type": "text"
 						},
 						{
-							"buffer": 9,
+							"buffer": 10,
 							"file": "/home/kuple/Downloads/subscription_manager",
 							"semi_transient": false,
 							"settings":
@@ -630,11 +663,11 @@
 								"translation.y": 2084.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 5,
 							"type": "text"
 						},
 						{
-							"buffer": 10,
+							"buffer": 11,
 							"file": "/home/kuple/Downloads/readme.txt",
 							"semi_transient": false,
 							"settings":
@@ -658,11 +691,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 9,
+							"stack_index": 10,
 							"type": "text"
 						},
 						{
-							"buffer": 11,
+							"buffer": 12,
 							"file": "/home/kuple/Downloads/Telegram Desktop/screensh",
 							"semi_transient": false,
 							"settings":
@@ -686,11 +719,11 @@
 								"translation.y": 115.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 13,
+							"stack_index": 14,
 							"type": "text"
 						},
 						{
-							"buffer": 12,
+							"buffer": 13,
 							"file": "/home/kuple/.config/polybar/launch.sh",
 							"semi_transient": false,
 							"settings":
@@ -714,11 +747,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 19,
+							"stack_index": 20,
 							"type": "text"
 						},
 						{
-							"buffer": 13,
+							"buffer": 14,
 							"file": "/home/kuple/.Xresources",
 							"semi_transient": false,
 							"settings":
@@ -742,11 +775,11 @@
 								"translation.y": 304.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 15,
+							"stack_index": 16,
 							"type": "text"
 						},
 						{
-							"buffer": 14,
+							"buffer": 15,
 							"file": "/home/kuple/.config/kitty/kitty.conf",
 							"semi_transient": false,
 							"settings":
@@ -770,11 +803,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 20,
+							"stack_index": 21,
 							"type": "text"
 						},
 						{
-							"buffer": 15,
+							"buffer": 16,
 							"file": "/home/kuple/.config/kitty/dracula.conf",
 							"semi_transient": false,
 							"settings":
@@ -798,11 +831,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 17,
+							"stack_index": 18,
 							"type": "text"
 						},
 						{
-							"buffer": 16,
+							"buffer": 17,
 							"file": "/home/kuple/.config/ranger/rc.conf",
 							"semi_transient": false,
 							"settings":
@@ -826,11 +859,11 @@
 								"translation.y": 14397.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 14,
+							"stack_index": 15,
 							"type": "text"
 						},
 						{
-							"buffer": 17,
+							"buffer": 18,
 							"file": "/home/kuple/.vimrc",
 							"semi_transient": false,
 							"settings":
@@ -854,11 +887,11 @@
 								"translation.y": 114.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 12,
+							"stack_index": 13,
 							"type": "text"
 						},
 						{
-							"buffer": 18,
+							"buffer": 19,
 							"file": "/etc/fstab",
 							"semi_transient": false,
 							"settings":
@@ -882,11 +915,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 11,
+							"stack_index": 12,
 							"type": "text"
 						},
 						{
-							"buffer": 19,
+							"buffer": 20,
 							"file": "/home/kuple/.config/ranger/scope.sh",
 							"semi_transient": false,
 							"settings":
@@ -913,11 +946,11 @@
 								"translation.y": 5586.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 16,
+							"stack_index": 17,
 							"type": "text"
 						},
 						{
-							"buffer": 20,
+							"buffer": 21,
 							"file": "/home/kuple/.config/ranger/rifle.conf",
 							"semi_transient": false,
 							"settings":
@@ -941,11 +974,11 @@
 								"translation.y": 3154.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 18,
+							"stack_index": 19,
 							"type": "text"
 						},
 						{
-							"buffer": 21,
+							"buffer": 22,
 							"file": "/home/kuple/.config/zathura/zathurarc",
 							"semi_transient": false,
 							"settings":
@@ -969,11 +1002,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 21,
+							"stack_index": 22,
 							"type": "text"
 						},
 						{
-							"buffer": 22,
+							"buffer": 23,
 							"file": "/home/kuple/.config/zathura/zathurarc.material",
 							"semi_transient": false,
 							"settings":
@@ -998,7 +1031,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 22,
+							"stack_index": 23,
 							"type": "text"
 						}
 					]
@@ -1040,7 +1073,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,963,42,1907,1067,1920,1080",
+			"position": "0,0,0,0,0,963,561,1907,1067,1920,1080",
 			"project": "",
 			"replace":
 			{
