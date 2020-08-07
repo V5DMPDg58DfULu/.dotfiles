@@ -129,16 +129,16 @@ super + e
 	pcmanfm
 
 #launch browser
-super + shift + w
-	brave
+super + w
+	firefox
 	
 #launch ranger
 super + shift + e
 	urxvt -e ranger
 	
-#launch sublime text
+#launch editor
 super + shift + g
-	subl
+	code
 	
 #brightness
 XF86MonBrightnessUp
@@ -168,5 +168,5 @@ Print ; {f,w,d}
 
 #lockscreen
 alt + shift + x
-	betterlockscreen -l dimblur -t "locked bruh"
+	betterlockscreen -l dim -t "locked bruh"
 #betterlockscreen -u ~/Pictures/wp1937338.jpg -l blur 0.5

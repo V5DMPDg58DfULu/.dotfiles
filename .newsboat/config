@@ -23,7 +23,7 @@ bind-key D pb-download
 bind-key U show-urls
 bind-key x pb-delete
 
-browser "brave %u"
+browser "firefox %u"
 
 # formatting and colorization ------------------------------------------
 

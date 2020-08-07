@@ -9,6 +9,6 @@ app.window.position.y=45
 autologin.canonical_username="dio.busuk"
 storage.last-location="/home/kuple/.cache/spotify/Storage"
 app.window.position.width=1900
-core.clock_delta=-10
+core.clock_delta=-8
 app.last-launched-version="1.1.10.546.ge08ef575"
 app.autostart-configured=true
